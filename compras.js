@@ -10,5 +10,6 @@ console.log("Preço: " +preco.toLocaleString('pt-BR', { style: 'currency', curre
 console.log("\n")
 console.log(`Desconto aplicado: ${desconto}`);
 console.log("\n")
-console.log("Preço com desconto: " + precoComDesconto.toFixed(2) + precoComDesconto.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+let precoComDesconto2 = precoComDesconto.toFixed(2);
+console.log("Preço com desconto: " + precoComDesconto2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
 console.log("\n")
